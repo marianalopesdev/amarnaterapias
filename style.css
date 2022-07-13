@@ -40,6 +40,11 @@ body {
     background-color: var(--brand-light-2);
 }
 
+@font-face {
+    font-family: 'Floren';
+    src: URL('/assets/fonts/FLOREN.ttf') format('truetype');
+  }
+
 .wrapper {
     width: min(50rem, 100%);
     margin-inline: auto;
@@ -128,6 +133,13 @@ section .content p {
     fill: var(--brand-light);
 }
 
+#navigation .wrapper .logo a {
+    font-family: 'Floren';
+    font-size: 3.2rem;
+    color: var(--primary-color);
+    text-decoration: none;
+}
+/**/
 #navigation .logo path[fill*="#9F46A8"],
 #backTop circle {
     fill: var(--primary-color);
@@ -138,10 +150,13 @@ button.open-menu path[stroke*='#FFFAF1'],
     stroke: var(--primary-color);
 }
 
-body.expanded-menu #navigation .logo path,
-#navigation.scroll .logo path {
-    fill: #FFFFFF;
+body.expanded-menu #navigation .logo a,
+#navigation.scroll .logo a {
+    /* fill: #FFFFFF; */
+    color: #FFFFFF;
 }
+
+
 
 #navigation.scroll button.open-menu path[stroke*='#FFFAF1'] {
     stroke: #FFFFFF;
@@ -496,6 +511,12 @@ footer .social-media {
     justify-content: flex-start;
 }
 
+footer a {
+    font-family: 'Floren';
+    color: #FFFFFF;
+    text-decoration: none;
+    font-size: 3.2rem;
+}
 
 /*back to top -------------------------------------------------------*/
 #backTop {
@@ -786,4 +807,13 @@ footer .social-media {
     footer p {
         margin-bottom: 0;
     }
+
+    footer a {
+        font-family: 'Floren';
+        color: #FFFFFF;
+        text-decoration: none;
+        font-size: 3.2rem;
+    }
+
+    
 }
