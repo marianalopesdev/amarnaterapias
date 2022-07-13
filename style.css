@@ -42,7 +42,7 @@ body {
 
 @font-face {
     font-family: 'Floren';
-    src: URL('/assets/fonts/FLOREN.ttf') format('truetype');
+    src: URL('../assets/fonts/FLOREN.ttf') format('truetype');
   }
 
 .wrapper {
