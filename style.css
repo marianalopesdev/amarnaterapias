@@ -297,6 +297,10 @@ body.expanded-menu button path {
     stroke: white;
 }
 
+.col-b .logo{
+    height: 54.7rem;
+    }
+
 /*home-------------------------------------------------------------*/
 
 #home {
@@ -349,6 +353,7 @@ body.expanded-menu button path {
     display: block;
     margin-inline: auto;
     object-position: 0 2rem;
+    border: 5rem;
 }
 
 
